@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Virtualizze Automação — Automações e Integrações para Empresas</title>
+  <meta name="description" content="A Virtualizze conecta sistemas, automatiza processos e implanta agentes de IA para empresas de médio porte. Diagnóstico gratuito de 30 minutos." />
+  <meta name="keywords" content="automação empresarial, integração de sistemas, agente de IA, n8n, WhatsApp Business, automação de processos, Brasil" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Virtualizze Automação — Automações e Integrações para Empresas" />
+  <meta property="og:description" content="Conectamos sistemas, automatizamos operações e implantamos agentes de IA. Diagnóstico gratuito de 30 minutos." />
+  <meta property="og:image" content="/og-image.png" />
+  <meta property="og:url" content="https://www.virtualizzeautomacao.com.br" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="canonical" href="https://www.virtualizzeautomacao.com.br" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════════════════════════
+       NAVBAR
+       ══════════════════════════════════════════════════════════ -->
+  <header id="navbar" class="navbar" role="banner">
+    <div class="container navbar-inner">
+
+      <!-- Logo -->
+      <a href="#" class="navbar-logo" aria-label="Virtualizze — página inicial">
+        <!-- Inline SVG logo mark -->
+        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" aria-hidden="true" focusable="false">
+          <rect width="32" height="32" rx="8" fill="#1A6EFF"/>
+          <path d="M8 10l8 12 8-12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 10l4 6 4-6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".5"/>
+        </svg>
+        Virtualizze
+      </a>
+
+      <!-- Desktop nav -->
+      <nav class="navbar-nav" aria-label="Menu principal">
+        <a href="#servicos">Serviços</a>
+        <a href="#como-trabalhamos">Como trabalhamos</a>
+        <a href="#sobre">Sobre</a>
+      </nav>
+
+      <!-- Desktop CTA -->
+      <div class="navbar-cta">
+        <a
+          href="https://wa.me/5584986176356?text=Olá! Gostaria de agendar uma conversa sobre automação para minha empresa."
+          class="btn-primary"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Falar com a equipe pelo WhatsApp"
+        >
+          Falar com a equipe →
+        </a>
+      </div>
+
+      <!-- Hamburger (mobile) -->
+      <button
+        id="hamburger"
+        class="hamburger"
+        aria-label="Abrir menu de navegação"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile drawer -->
+  <nav id="mobile-menu" class="mobile-menu" aria-label="Menu mobile" aria-hidden="true">
+    <a href="#servicos">Serviços</a>
+    <a href="#como-trabalhamos">Como trabalhamos</a>
+    <a href="#sobre">Sobre</a>
+    <a
+      href="https://wa.me/5584986176356?text=Olá! Gostaria de agendar uma conversa sobre automação para minha empresa."
+      class="btn-primary"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Falar com a equipe →
+    </a>
+  </nav>
+
+  <main id="main" style="padding-top: 72px;">
+
+    <!-- ══════════════════════════════════════════════════════════
+         HERO
+         ══════════════════════════════════════════════════════════ -->
+    <section class="hero" id="hero" aria-label="Introdução">
+      <!-- Blobs de gradiente -->
+      <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+      <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <!-- Badge -->
+          <span class="hero-badge">Automação · IA · Integrações</span>
+
+          <!-- Título principal -->
+          <h1>
+            Seus processos manuais têm <span class="text-accent">custo</span>.<br />
+            A gente elimina esse custo.
+          </h1>
+
+          <!-- Subtítulo -->
+          <p class="hero-sub">
+            A Virtualizze conecta sistemas, automatiza operações e implanta agentes
+            de IA para empresas que não têm mais tempo a perder com trabalho que
+            a tecnologia pode fazer.
+          </p>
+
+          <!-- CTAs -->
+          <div class="hero-actions">
+            <a
+              href="https://wa.me/5584986176356?text=Olá! Gostaria de agendar uma conversa sobre automação para minha empresa."
+              class="btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Falar com a equipe →
+            </a>
+            <a href="#como-trabalhamos" class="btn-secondary">
+              Ver como trabalhamos
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+         SERVIÇOS
+         ══════════════════════════════════════════════════════════ -->
+    <section class="services" id="servicos" aria-labelledby="services-title">
+      <div class="container">
+        <div class="services-header reveal">
+          <p class="section-label">O que fazemos</p>
+          <h2 id="services-title" class="section-title">O que entregamos</h2>
+          <p class="section-subtitle">Três especialidades. Cada uma com profundidade real.</p>
+        </div>
+
+        <div class="services-grid">
+
+          <!-- Card 1 — Automações e Integrações -->
+          <article class="card-service reveal" aria-label="Serviço: Automações e Integrações">
+            <div class="card-icon" aria-hidden="true">
+              <!-- Heroicons: arrows-right-left -->
+              <svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+              </svg>
+            </div>
+            <h3 class="card-title">Automações e Integrações</h3>
+            <p class="card-tagline">
+              Seus sistemas conversam entre si — sem planilha no meio, sem processo manual.
+            </p>
+            <p class="card-body">
+              CRM, ERP, WhatsApp, e-mail, calendário, plataformas de pagamento.
+              A Virtualizze conecta o que precisa ser conectado e automatiza
+              o que está sendo feito à mão hoje.
+            </p>
+            <ul class="card-examples" aria-label="Exemplos">
+              <li>Lead entra no CRM automaticamente a partir do WhatsApp</li>
+              <li>Notificações, lembretes e follow-ups disparados sem intervenção humana</li>
+              <li>Relatórios gerados e enviados automaticamente no horário certo</li>
+            </ul>
+          </article>
+
+          <!-- Card 2 — Agentes de IA -->
+          <article class="card-service reveal" aria-label="Serviço: Agentes de IA — Atendimento e Qualificação">
+            <div class="card-icon" aria-hidden="true">
+              <!-- Heroicons: cpu-chip -->
+              <svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 3v1.5M4.5 8.25H3m18 0h-1.5M4.5 12H3m18 0h-1.5m-15 3.75H3m18 0h-1.5M8.25 19.5V21M12 3v1.5m0 15V21m3.75-18v1.5m0 15V21m-9-1.5h10.5a2.25 2.25 0 002.25-2.25V6.75a2.25 2.25 0 00-2.25-2.25H6.75A2.25 2.25 0 004.5 6.75v10.5a2.25 2.25 0 002.25 2.25zm.75-12h9v9h-9v-9z" />
+              </svg>
+            </div>
+            <h3 class="card-title">Agentes de IA — Atendimento e Qualificação</h3>
+            <p class="card-tagline">
+              Atendimento que não dorme, não esquece e não erra o script.
+            </p>
+            <p class="card-body">
+              Implantamos agentes de IA no WhatsApp e em outros canais para qualificar leads,
+              responder dúvidas frequentes, agendar reuniões e escalar para o humano certo
+              quando necessário.
+            </p>
+            <ul class="card-examples" aria-label="Exemplos">
+              <li>Atendimento inicial 24/7 sem aumentar equipe</li>
+              <li>Triagem automática de pacientes, clientes ou leads por perfil</li>
+              <li>Redução de tempo de resposta de horas para segundos</li>
+            </ul>
+          </article>
+
+          <!-- Card 3 — Automação de Marketing -->
+          <article class="card-service reveal" aria-label="Serviço: Automação de Marketing">
+            <div class="card-icon" aria-hidden="true">
+              <!-- Heroicons: megaphone -->
+              <svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.75">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46" />
+              </svg>
+            </div>
+            <h3 class="card-title">Automação de Marketing</h3>
+            <p class="card-tagline">
+              Sua régua de comunicação funcionando — mesmo quando ninguém está olhando.
+            </p>
+            <p class="card-body">
+              Configuramos fluxos de e-mail, WhatsApp e nutrição de leads que funcionam
+              de forma contínua, no momento certo, para o contato certo.
+            </p>
+            <ul class="card-examples" aria-label="Exemplos">
+              <li>Sequências automáticas de boas-vindas, follow-up e reengajamento</li>
+              <li>Disparo de campanhas segmentadas por comportamento</li>
+              <li>Integração entre formulários, CRM e canais de comunicação</li>
+            </ul>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+         COMO TRABALHAMOS
+         ══════════════════════════════════════════════════════════ -->
+    <section class="how" id="como-trabalhamos" aria-labelledby="how-title">
+      <div class="container">
+        <div class="how-header reveal">
+          <p class="section-label">Processo</p>
+          <h2 id="how-title" class="section-title">Nosso processo</h2>
+          <p class="section-subtitle">Do diagnóstico à entrega — sem surpresa no meio do caminho.</p>
+        </div>
+
+        <div class="steps-grid" role="list">
+
+          <div class="step reveal" role="listitem">
+            <p class="step-number" aria-hidden="true">01</p>
+            <h3 class="step-title">Diagnóstico</h3>
+            <p class="step-body">
+              Antes de qualquer proposta, mapeamos como seus processos funcionam hoje — onde está
+              o gargalo, o que está sendo feito manualmente e onde a automação gera mais impacto.
+            </p>
+          </div>
+
+          <div class="step reveal" role="listitem">
+            <p class="step-number" aria-hidden="true">02</p>
+            <h3 class="step-title">Proposta sob medida</h3>
+            <p class="step-body">
+              Nada de pacote pronto. Apresentamos uma solução específica para o seu problema,
+              com escopo claro, prazo definido e investimento transparente.
+            </p>
+          </div>
+
+          <div class="step reveal" role="listitem">
+            <p class="step-number" aria-hidden="true">03</p>
+            <h3 class="step-title">Implementação</h3>
+            <p class="step-body">
+              Desenvolvemos, testamos e implantamos. Você acompanha o progresso em cada
+              etapa — sem surpresas no final.
+            </p>
+          </div>
+
+          <div class="step reveal" role="listitem">
+            <p class="step-number" aria-hidden="true">04</p>
+            <h3 class="step-title">Suporte e evolução</h3>
+            <p class="step-body">
+              Após a entrega, continuamos disponíveis para ajustes, melhorias e expansão
+              das automações conforme sua operação cresce.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+         SOBRE
+         ══════════════════════════════════════════════════════════ -->
+    <section class="about" id="sobre" aria-labelledby="about-title">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Coluna esquerda -->
+          <div class="reveal">
+            <p class="about-label">Quem somos</p>
+            <h2 id="about-title" class="about-title">Quem somos</h2>
+
+            <div class="about-body">
+              <p>
+                A Virtualizze é uma empresa brasileira especializada em automação de
+                processos e integração de sistemas para negócios que querem operar
+                com mais eficiência e menos retrabalho.
+              </p>
+              <p>
+                Trabalhamos com empresas de médio porte que já têm operação
+                estabelecida mas ainda dependem de processos manuais, ferramentas
+                desconectadas ou equipes sobrecarregadas com tarefas repetitivas.
+              </p>
+              <p>
+                Nossa abordagem é técnica e direta: entendemos o problema, projetamos
+                a solução certa e entregamos com responsabilidade.
+              </p>
+            </div>
+
+            <!-- Stack tecnológica -->
+            <div class="stack-pills" aria-label="Stack tecnológica">
+              <span class="pill">n8n</span>
+              <span class="pill">Evolution API</span>
+              <span class="pill">WhatsApp Business API</span>
+              <span class="pill">OpenAI</span>
+              <span class="pill">Supabase</span>
+              <span class="pill">React</span>
+              <span class="pill">PostgreSQL</span>
+            </div>
+          </div>
+
+          <!-- Coluna direita — card de métricas -->
+          <div class="reveal">
+            <div class="about-card" aria-label="Métricas">
+              <div class="metric">
+                <span class="metric-number">24/7</span>
+                <span class="metric-label">Disponibilidade dos sistemas entregues</span>
+              </div>
+              <hr class="metric-divider" />
+              <div class="metric">
+                <span class="metric-number">30 min</span>
+                <span class="metric-label">Para diagnóstico inicial gratuito</span>
+              </div>
+              <hr class="metric-divider" />
+              <div class="metric">
+                <span class="metric-number">100%</span>
+                <span class="metric-label">Projetos com escopo e prazo definidos</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════════
+         CTA FINAL
+         ══════════════════════════════════════════════════════════ -->
+    <section class="cta-final" id="contato" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-final-inner reveal">
+          <h2 id="cta-title" class="cta-title">
+            Tem um processo manual<br />
+            que deveria ser automático?
+          </h2>
+          <p class="cta-body">
+            Agende uma conversa gratuita de 30 minutos. Vamos analisar sua operação
+            e mostrar, de forma objetiva, onde a automação pode resolver.
+          </p>
+          <p class="cta-support">Sem compromisso. Sem apresentação genérica.</p>
+          <a
+            href="https://wa.me/5584986176356?text=Olá! Gostaria de agendar uma conversa sobre automação para minha empresa."
+            class="btn-primary btn-large"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Agendar conversa pelo WhatsApp"
+          >
+            Agendar conversa no WhatsApp →
+          </a>
+          <a
+            href="mailto:contato@virtualizzeautomacao.com.br"
+            class="cta-email"
+            aria-label="Enviar e-mail para contato@virtualizzeautomacao.com.br"
+          >
+            contato@virtualizzeautomacao.com.br
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══════════════════════════════════════════════════════════
+       RODAPÉ
+       ══════════════════════════════════════════════════════════ -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+
+        <!-- Logo + tagline -->
+        <div>
+          <div class="footer-logo" aria-label="Virtualizze">
+            <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true" focusable="false">
+              <rect width="32" height="32" rx="8" fill="#1A6EFF"/>
+              <path d="M8 10l8 12 8-12" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 10l4 6 4-6" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".5"/>
+            </svg>
+            Virtualizze
+          </div>
+          <p class="footer-tagline">
+            Automação inteligente para quem já tem operação e quer escalar.
+          </p>
+        </div>
+
+        <!-- Links -->
+        <nav class="footer-links" aria-label="Links do rodapé">
+          <a href="#servicos">Serviços</a>
+          <a href="#como-trabalhamos">Como trabalhamos</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2025 Virtualizze Automação. Todos os direitos reservados.</p>
+        <a
+          href="mailto:contato@virtualizzeautomacao.com.br"
+          class="footer-email"
+          aria-label="Enviar e-mail para contato@virtualizzeautomacao.com.br"
+        >
+          contato@virtualizzeautomacao.com.br
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
