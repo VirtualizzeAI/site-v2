@@ -332,8 +332,7 @@ ul {
    ============================================================ */
 .hero {
   position: relative;
-  min-height: 100vh;
-  min-height: 600px;
+  min-height: max(100vh, 600px);
   display: flex;
   align-items: center;
   background: var(--color-off-white);
